@@ -8,4 +8,4 @@ Anggota Kelompok : - Jackson 2031005
                    - David Vieri 2031053
                    - Catherine 2031049
                    - Daniel Prisman 2031184
-Tahun Ajaran  : 2020/2021
+Tahun Ajaran  : 2020/2021...
