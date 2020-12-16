@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*                                              login.php                                        */
+.bg_login {
+    /* background-color: skyblue; */
+    background: url(img/bg1.jpg);
+    font-size: 1.3em;
+    height: 100vh;
+    background-size: cover;
+}
+
+.cont_login {
+    padding-top: 10px;
+    background-color: rgb(241, 234, 229);
+    width: 430px;
+    height: 350px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 110px ;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px black;
+}
+
+.cont_login .form {
+    /* background-color: seashell; */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cont_login .form .block {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cont_login .form input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    width: 380px;
+    height: 40px;
+    left: 5px;
+    outline: none;
+}
+
+.cont_login .form button,
+.bg_update .cont_update button {
+    width: 100px;
+    height: 40px;
+    background-color: #111111;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1em;
+    position: relative;
+    left: 145px;
+    margin: 20px;
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.cont_login .form button:hover,
+.bg_update .cont_update button:hover {
+    color: rgb(255, 62, 62);
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 2px 1px rgba(48, 48, 48, 0.8);
+}
+
+
+
+
+
+
+
+
+
+/*                                              admin.php                                        */
+.bg_admin {
+    background-color: rgb(241, 234, 229);
+}
+
+.bg_admin h4 {
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    position: relative;
+    top: -10px;
+}
+
+.bg_admin .navbar h1 {
+    color: white;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    top: -8px;
+}
+
+.bg_admin .navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    height: 47px;
+    width: 75px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.bg_admin .navbar a:hover {
+    color: rgb(255, 62, 62);
+    border-bottom: 3px solid rgb(255, 62, 62) ;
+}
+
+.bg_admin .navbar {
+    display: flex;
+    background-color: black;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.bg_admin table {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.bg_admin .table1 {
+    width: 600px;
+    text-align: center;
+}
+
+.bg_admin .table2 {
+    margin: 0 20px;
+    margin-bottom: 50px;
+}
+
+
+
+/*                                              update.php                                        */
+.bg_update {
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-size: 1.1em;
+}
+
+.bg_update h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg_update .cont_update {
+    width: 430px;
+    background-color: rgb(241, 234, 229);
+    /* margin: 0 auto; */
+    padding: 10px 20px;
+    height: 440px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px black;
+    position: relative;
+    top: 60px;
+    left: 150px;
+}
+
+.bg_update form {
+    /* background-color: royalblue; */
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-between;
+}
+
+.bg_update form .batch {
+    display: flex;
+    flex-direction: column;
+    /* background-color: salmon; */
+    /* height: 40px; */
+    justify-content: space-between;
+}
+
+.bg_update form .batch.jenis input,
+.bg_update form .batch.harga input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+    height: 30px;
+}
+
+.bg_update form .batch.gambar {
+    /* background-color: turquoise; */
+    justify-content: space-between;
+    height: 120px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance:none;
+}
