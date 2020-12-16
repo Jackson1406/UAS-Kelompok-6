@@ -1,0 +1,18 @@
+.body1 {
+    text-align: center;
+}
+
+.body1 img {
+    height: 300px;
+    padding-top: 100px;
+}
+
+.body1 a {
+    color: rgb(88, 67, 51);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.body1 a:hover {
+    color: rgb(255, 62, 62);
+}
